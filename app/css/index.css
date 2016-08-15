@@ -1,0 +1,38 @@
+
+/* holygrain css flex box */
+html, body {height: 100%;}
+
+body{ display:flex; flex-direction: column;justify-content: ;}
+
+ .main   { flex: 1; }
+
+
+
+.main { display: flex; flex-direction: column;  justify-content: center; align-items: center;}
+  .app-header { flex: 1 ; width: 200px;  }
+
+
+  @media ( width < 291px; ){
+    .app-buttons { flex: 1 10px;}
+  }
+  @media ( width > 290px; ){
+    .app-buttons { flex: 1 100px;}
+  }
+  .app-caption { flex:2 ;}
+
+
+
+
+
+
+.app-header{ display:flex; flex-direction: row; align-items: center;}
+.app-header > h1{ text-align: center; border-bottom: 2px solid grey; color:; }
+.app-buttons{ display: flex; flex-direction: row;  justify-content: space-around; flex-wrap:wrap; }
+.para { font-style: bold;font-weight: 777;}
+
+.app-caption{ margin-top: 10px; text-align: center;}
+
+
+
+.glyphicon.bigger {font-size: 40px; padding : 40px; color: grey}
+
